@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  #app {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  #raceTrack {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    position: relative;
+    height: 50px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+  }
+  .car {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: left 0.1s;
+  }
+  #typingInput {
+    width: 100%;
+    height: 100px;
+  }
+  

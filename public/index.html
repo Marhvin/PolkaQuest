@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PolkaType - Typing Race Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <div id="login">
+      <button id="connectWallet">Connect Wallet</button>
+    </div>
+    <div id="game" style="display: none;">
+      <h1>Typing Race</h1>
+      <div id="raceTrack">
+        <div id="player1" class="car">🚗</div>
+        <div id="player2" class="car">🚗</div>
+      </div>
+      <textarea id="typingInput" placeholder="Start typing to race..."></textarea>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
+    
